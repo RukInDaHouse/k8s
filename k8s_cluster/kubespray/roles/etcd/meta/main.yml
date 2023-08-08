@@ -1,0 +1,8 @@
+---
+dependencies:
+  - role: adduser
+    user: "{{ addusers.etcd }}"
+
+  - role: adduser
+    user: "{{ addusers.kube }}"
+
